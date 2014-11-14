@@ -108,92 +108,110 @@ body {
   }
 }
 
-.bilf-one {
-  @include bilf-flat-base(#D24D57);
-}
-
-.bilf-two {
-  @include bilf-flat-base(#DB0A5B);
-}
-
-.bilf-three {
-  @include bilf-flat-base(#D24D57);
-}
-.bilf-four {
-  @include bilf-flat-base(#DB0A5B);
-}
-.bilf-five {
-  @include bilf-flat-base(#FFECDB);
-}
-.bilf-six {
-  @include bilf-flat-base(#F64747);
-}
-.bilf-seven {
-  @include bilf-flat-base(#F1A9A0);
-}
-.bilf-eight {
-  @include bilf-flat-base(#D2527F);
-}
-.bilf-nine {
-  @include bilf-flat-base(#F62459);
-}
-.bilf-ten {
-  @include bilf-flat-base(#DCC6E0);
-}
-.bilf-eleven {
-  @include bilf-flat-base(#663399);
-}
-.bilf-twelve {
-  @include bilf-flat-base(#674172);
-}
-.bilf-thirteen {
-  @include bilf-flat-base(#AEA8D3);
-}
-.bilf-fourteen {
-  @include bilf-flat-base(#446CB3);
-}
-.bilf-fifteen {
-  @include bilf-flat-base(#E4F1FE);
-}
-.bilf-sixteen {
-  @include bilf-flat-base(#4183D7);
-}
-.bilf-seventeen {
-  @include bilf-flat-base(#81CFE0);
-}
-.bilf-eighteen {
-  @include bilf-flat-base(#4ECDC4);
-}
-.bilf-nineteen {
-  @include bilf-flat-base(#A2DED0);
-}
-.bilf-twenty {
-  @include bilf-flat-base(#87D37C);
-}
-.bilf-twenty-one {
-  @include bilf-flat-base(#90C695);
-}
-.bilf-twenty-two {
-  @include bilf-flat-base(#03C9A9);
-}
-.bilf-twenty-three {
-  @include bilf-flat-base(#68C3A3);
-}
-.bilf-twenty-four {
-  @include bilf-flat-base(#F5D76E);
-}
-.bilf-twenty-five {
-  @include bilf-flat-base(#FDE3A7);
-}
-.bilf-twenty-six {
-  @include bilf-flat-base(#F89406);
-}
-.bilf-twenty-seven {
-  @include bilf-flat-base(#ececec);
-}
-.bilf-twenty-eight {
-  @include bilf-flat-base(#6C7A89);
-}
+.bilf-0{ @include bilf-flat-base(#D24D57);}
+.bilf-1{ @include bilf-flat-base(#F22613);}
+.bilf-2{ @include bilf-flat-base(#FF0000);}
+.bilf-3{ @include bilf-flat-base(#D91E18);}
+.bilf-4{ @include bilf-flat-base(#96281B);}
+.bilf-5{ @include bilf-flat-base(#EF4836);}
+.bilf-6{ @include bilf-flat-base(#D64541);}
+.bilf-7{ @include bilf-flat-base(#C0392B);}
+.bilf-8{ @include bilf-flat-base(#CF000F);}
+.bilf-9{ @include bilf-flat-base(#E74C3C);}
+.bilf-10{ @include bilf-flat-base(#DB0A5B);}
+.bilf-11{ @include bilf-flat-base(#FFECDB);}
+.bilf-12{ @include bilf-flat-base(#F64747);}
+.bilf-13{ @include bilf-flat-base(#F1A9A0);}
+.bilf-14{ @include bilf-flat-base(#D2527F);}
+.bilf-15{ @include bilf-flat-base(#E08283);}
+.bilf-16{ @include bilf-flat-base(#F62459);}
+.bilf-17{ @include bilf-flat-base(#E26A6A);}
+.bilf-18{ @include bilf-flat-base(#DCC6E0);}
+.bilf-19{ @include bilf-flat-base(#663399);}
+.bilf-20{ @include bilf-flat-base(#674172);}
+.bilf-21{ @include bilf-flat-base(#AEA8D3);}
+.bilf-22{ @include bilf-flat-base(#913D88);}
+.bilf-23{ @include bilf-flat-base(#9A12B3);}
+.bilf-24{ @include bilf-flat-base(#BF55EC);}
+.bilf-25{ @include bilf-flat-base(#BE90D4);}
+.bilf-26{ @include bilf-flat-base(#8E44AD);}
+.bilf-27{ @include bilf-flat-base(#9B59B6);}
+.bilf-28{ @include bilf-flat-base(#446CB3);}
+.bilf-29{ @include bilf-flat-base(#E4F1FE);}
+.bilf-30{ @include bilf-flat-base(#4183D7);}
+.bilf-31{ @include bilf-flat-base(#59ABE3);}
+.bilf-32{ @include bilf-flat-base(#81CFE0);}
+.bilf-33{ @include bilf-flat-base(#52B3D9);}
+.bilf-34{ @include bilf-flat-base(#C5EFF7);}
+.bilf-35{ @include bilf-flat-base(#22A7F0);}
+.bilf-36{ @include bilf-flat-base(#3498DB);}
+.bilf-37{ @include bilf-flat-base(#2C3E50);}
+.bilf-38{ @include bilf-flat-base(#19B5FE);}
+.bilf-39{ @include bilf-flat-base(#336E7B);}
+.bilf-40{ @include bilf-flat-base(#22313F);}
+.bilf-41{ @include bilf-flat-base(#6BB9F0);}
+.bilf-42{ @include bilf-flat-base(#1E8BC3);}
+.bilf-43{ @include bilf-flat-base(#3A539B);}
+.bilf-44{ @include bilf-flat-base(#34495E);}
+.bilf-45{ @include bilf-flat-base(#67809F);}
+.bilf-46{ @include bilf-flat-base(#2574A9);}
+.bilf-47{ @include bilf-flat-base(#1F3A93);}
+.bilf-48{ @include bilf-flat-base(#89C4F4);}
+.bilf-49{ @include bilf-flat-base(#4B77BE);}
+.bilf-50{ @include bilf-flat-base(#5C97BF);}
+.bilf-51{ @include bilf-flat-base(#4ECDC4);}
+.bilf-52{ @include bilf-flat-base(#A2DED0);}
+.bilf-53{ @include bilf-flat-base(#87D37C);}
+.bilf-54{ @include bilf-flat-base(#90C695);}
+.bilf-55{ @include bilf-flat-base(#26A65B);}
+.bilf-56{ @include bilf-flat-base(#03C9A9);}
+.bilf-57{ @include bilf-flat-base(#68C3A3);}
+.bilf-58{ @include bilf-flat-base(#65C6BB);}
+.bilf-59{ @include bilf-flat-base(#1BBC9B);}
+.bilf-60{ @include bilf-flat-base(#1BA39C);}
+.bilf-61{ @include bilf-flat-base(#66CC99);}
+.bilf-62{ @include bilf-flat-base(#36D7B7);}
+.bilf-63{ @include bilf-flat-base(#C8F7C5);}
+.bilf-64{ @include bilf-flat-base(#86E2D5);}
+.bilf-65{ @include bilf-flat-base(#2ECC71);}
+.bilf-66{ @include bilf-flat-base(#16a085);}
+.bilf-67{ @include bilf-flat-base(#3FC380);}
+.bilf-68{ @include bilf-flat-base(#019875);}
+.bilf-69{ @include bilf-flat-base(#03A678);}
+.bilf-70{ @include bilf-flat-base(#4DAF7C);}
+.bilf-71{ @include bilf-flat-base(#2ABB9B);}
+.bilf-72{ @include bilf-flat-base(#00B16A);}
+.bilf-73{ @include bilf-flat-base(#1E824C);}
+.bilf-74{ @include bilf-flat-base(#049372);}
+.bilf-75{ @include bilf-flat-base(#26C281);}
+.bilf-76{ @include bilf-flat-base(#F5D76E);}
+.bilf-77{ @include bilf-flat-base(#F7CA18);}
+.bilf-78{ @include bilf-flat-base(#F4D03F);}
+.bilf-79{ @include bilf-flat-base(#FDE3A7);}
+.bilf-80{ @include bilf-flat-base(#F89406);}
+.bilf-81{ @include bilf-flat-base(#EB9532);}
+.bilf-82{ @include bilf-flat-base(#E87E04);}
+.bilf-83{ @include bilf-flat-base(#F4B350);}
+.bilf-84{ @include bilf-flat-base(#F2784B);}
+.bilf-85{ @include bilf-flat-base(#EB974E);}
+.bilf-86{ @include bilf-flat-base(#F5AB35);}
+.bilf-87{ @include bilf-flat-base(#D35400);}
+.bilf-88{ @include bilf-flat-base(#F39C12);}
+.bilf-89{ @include bilf-flat-base(#F9690E);}
+.bilf-90{ @include bilf-flat-base(#F9BF3B);}
+.bilf-91{ @include bilf-flat-base(#F27935);}
+.bilf-92{ @include bilf-flat-base(#E67E22);}
+.bilf-93{ @include bilf-flat-base(#ececec);}
+.bilf-94{ @include bilf-flat-base(#6C7A89);}
+.bilf-95{ @include bilf-flat-base(#D2D7D3);}
+.bilf-96{ @include bilf-flat-base(#EEEEEE);}
+.bilf-97{ @include bilf-flat-base(#BDC3C7);}
+.bilf-98{ @include bilf-flat-base(#ECF0F1);}
+.bilf-99{ @include bilf-flat-base(#95A5A6);}
+.bilf-100{ @include bilf-flat-base(#DADFE1);}
+.bilf-101{ @include bilf-flat-base(#ABB7B7);}
+.bilf-102{ @include bilf-flat-base(#F2F1EF);}
+.bilf-103{ @include bilf-flat-base(#BFBFBF);}
 
 .demo-row {
   margin-bottom: 20px;
