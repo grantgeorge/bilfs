@@ -99,12 +99,12 @@ body {
     background-color: lighten($color, 5%);
   }
   &:focus {
-    background-color: #cacfd2;
-    border-color: #cacfd2;
+    background-color: lighten($color, 5%);
+    border-color: lighten($color, 5%);
   }
   &:active {
-    background-color: #cacfd2;
-    border-color: #cacfd2;
+    background-color: darken($color, 10%);
+    border-color: darken($color, 10%);
   }
 }
 
