@@ -83,6 +83,9 @@ body {
   line-height: 1.33;
   border-radius: 6px; }
 
+.demo-margin {
+  margin-bottom: 20px; }
+
 .bilf-0 {
   padding: 10px 15px;
   font-size: 15px;
@@ -2474,9 +2477,6 @@ body {
   .bilf-103:active {
     background-color: #a6a6a6;
     border-color: #a6a6a6; }
-
-.demo-row {
-  margin-bottom: 20px; }
 
 .btn-fui {
   padding: 10px 15px;

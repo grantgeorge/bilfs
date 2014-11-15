@@ -78,6 +78,10 @@ body {
   border-radius: 6px;
 }
 
+.demo-margin {
+  margin-bottom: 20px;
+}
+
 @mixin bilf-flat-base($color) {
   padding: 10px 15px;
   font-size: 15px;
@@ -212,10 +216,6 @@ body {
 .bilf-101{ @include bilf-flat-base(#ABB7B7);}
 .bilf-102{ @include bilf-flat-base(#F2F1EF);}
 .bilf-103{ @include bilf-flat-base(#BFBFBF);}
-
-.demo-row {
-  margin-bottom: 20px;
-}
 
 .btn-fui {
   padding: 10px 15px;
