@@ -49,7 +49,8 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 730px;
+    // max-width: 730px;
+    max-width: 970px;
   }
 
   /* Remove the padding we set earlier */
@@ -78,6 +79,47 @@ body {
   border-radius: 6px;
 }
 
+.demo-headline {
+  padding: 73px 0 110px;
+  text-align: center;
+}
+
+.demo-logo {
+  margin: 10px 0;
+  font: 900 90px/100px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: -2px;
+
+  .logo {
+    width: 201px;
+    height: 200px;
+    margin: 0 auto 26px;
+    overflow: hidden;
+    text-indent: -9999em;
+    background: url(../images/Letter-Symbol@2x.png) center 0 no-repeat;
+    background-size: 201px 200px;
+  }
+
+  small {
+    display: block;
+    padding-top: 5px;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgba(52, 73, 94, .3);
+    letter-spacing: 0;
+  }
+}
+
+.demo-section-title {
+  margin: 10px 0;
+  font: 900 32px/40px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.demo-panel-title {
+  padding-top: 20px;
+  margin: 2px 0 20px;
+  font: bold 23px/40px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .demo-margin {
   margin-bottom: 20px;
 }
@@ -99,8 +141,8 @@ body {
   border-color: $color;
 
   &:hover {
-    background-color: lighten($color, 5%);
-    background-color: lighten($color, 5%);
+    background-color: lighten($color, 10%);
+    background-color: lighten($color, 10%);
   }
   &:focus {
     background-color: lighten($color, 5%);
@@ -391,8 +433,6 @@ fieldset[disabled] .btn-primary-fui.active {
 }
 
 // Math
-
-.container { width: 100%; }
 
 article[role="main"] {
   float: left;
